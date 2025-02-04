@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const Title = document.getElementById("title");
     const music = document.getElementById("song");
     const musicCard = document.getElementById("music-card");
-    const textoAmor = documet.getElementById("textoAmor");
+    const textoAmor = document.getElementById("textoAmor");
 
     NoBoton.addEventListener('click', function() {
         let tamañoActual = parseFloat(window.getComputedStyle(YesBoton).fontSize);

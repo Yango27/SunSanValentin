@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
 h1{
-    font-family: 'Wendy One', sans-serif; /* Cambia la fuente */
-    font-size:5vw;
+    font-family: 'Monocraft', sans-serif; /* Cambia la fuente */
+    font-size:4vw;
     line-height: 220px;
     color: #f078f0;
     text-shadow: 0 10px 7px rgba(0, 0, 0, 0.4),0 -0.1em 1px #ecbde2be;
@@ -29,6 +29,7 @@ h1{
     border-radius: 0;
     position: relative;
     transition: all 700ms ease;
+    font-family: 'Monocraft', sans-serif;
   }
   
   .c-button--gooey .c-button__blobs {
@@ -195,11 +196,13 @@ body
   font-size: 1.2rem;
   font-weight: 600;
   color: #333;
+  font-family: 'Monocraft', sans-serif;
 }
 
 .track-artist {
   font-size: 0.9rem;
   color: #666;
+  font-family: 'Monocraft', sans-serif;
 }
 
 .card-icons {
@@ -251,10 +254,25 @@ body
   padding: 0 16px 16px 16px;
   font-size: 0.85rem;
   color: #6b7280;
+  font-family: 'Monocraft', sans-serif;
+}
+
+@font-face {
+  font-family: "Monocraft";
+  src: url("Monocraft.ttc");
 }
 
 #textoAmor
 {
   text-align: center;
   display: none;
+  margin: 2em;
+  font-family: "Monocraft", sans-serif;
+  font-size: 1.5em;
+  color: #333333;
+}
+
+p {
+  word-wrap: break-word; 
+  white-space: normal; 
 }
